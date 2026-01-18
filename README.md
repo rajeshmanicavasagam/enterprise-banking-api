@@ -1,3 +1,6 @@
+![CI](https://github.com/RajeshManicavasagam/enterprise-banking-api/actions/workflows/ci.yml/badge.svg)
+
+
 # Enterprise Banking Microservices (.NET 8)
 
 This repository demonstrates a **senior-level backend architecture** using **.NET 8**,  
