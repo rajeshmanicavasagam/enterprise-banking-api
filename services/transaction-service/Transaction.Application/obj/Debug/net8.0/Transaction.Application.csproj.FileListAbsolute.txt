@@ -1,0 +1,16 @@
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\bin\Debug\net8.0\Transaction.Application.deps.json
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\bin\Debug\net8.0\Transaction.Application.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\bin\Debug\net8.0\Transaction.Application.pdb
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\bin\Debug\net8.0\Transaction.Domain.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\bin\Debug\net8.0\Transaction.Domain.pdb
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.csproj.AssemblyReference.cache
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.AssemblyInfoInputs.cache
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.AssemblyInfo.cs
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.csproj.CoreCompileInputs.cache
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.sourcelink.json
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transact.3B377CB9.Up2Date
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\refint\Transaction.Application.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\Transaction.Application.pdb
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Application\obj\Debug\net8.0\ref\Transaction.Application.dll

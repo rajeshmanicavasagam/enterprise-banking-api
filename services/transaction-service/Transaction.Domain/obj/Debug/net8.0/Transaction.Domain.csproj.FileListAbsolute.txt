@@ -1,0 +1,12 @@
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\bin\Debug\net8.0\Transaction.Domain.deps.json
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\bin\Debug\net8.0\Transaction.Domain.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\bin\Debug\net8.0\Transaction.Domain.pdb
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.AssemblyInfoInputs.cache
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.AssemblyInfo.cs
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.csproj.CoreCompileInputs.cache
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.sourcelink.json
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\refint\Transaction.Domain.dll
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\Transaction.Domain.pdb
+C:\Users\raj\enterprise-banking-api\services\transaction-service\Transaction.Domain\obj\Debug\net8.0\ref\Transaction.Domain.dll
