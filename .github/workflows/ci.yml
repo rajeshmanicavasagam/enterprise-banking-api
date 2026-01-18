@@ -7,24 +7,61 @@ on:
     branches: [ "main" ]
 
 jobs:
-  identity-service-ci:
+  identity-service:
     name: Identity Service - Build & Test
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
-      - name: Restore Identity Service
+      - name: Restore
         run: dotnet restore services/identity-service/IdentityService.sln
 
-      - name: Build Identity Service
+      - name: Build
         run: dotnet build services/identity-service/IdentityService.sln --no-restore --configuration Release
 
-      - name: Test Identity Service
+      - name: Test
         run: dotnet test services/identity-service/IdentityService.sln --no-build --configuration Release
+
+
+  account-service:
+    name: Account Service - Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore services/account-service/AccountService.sln
+
+      - name: Build
+        run: dotnet build services/account-service/AccountService.sln --no-restore --configuration Release
+
+
+  transaction-service:
+    name: Transaction Service - Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore services/transaction-service/TransactionService.sln
+
+      - name: Build
+        run: dotnet build services/transaction-service/TransactionService.sln --no-restore --configuration Release
