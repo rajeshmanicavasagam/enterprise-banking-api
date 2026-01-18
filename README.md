@@ -115,6 +115,13 @@ Unit tests focus on application-level business logic, not framework concerns.
 
 dotnet test services/identity-service/IdentityService.sln
 
+> ⚠️ Security Note  
+> JWT secrets and persistence are simplified for demonstration purposes.
+> In production, secrets would be managed via secure configuration and
+> transactions processed asynchronously.
+
+
+
 ## 🚀 Future Improvements
 
 - Replace in-memory persistence with PostgreSQL
