@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/ItJktHSYjU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\raj\\enterprise-banking-api\\services\\account-service\\Account.Infrastructure\\Account.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raj\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.2\\microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "C:\\Users\\raj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
