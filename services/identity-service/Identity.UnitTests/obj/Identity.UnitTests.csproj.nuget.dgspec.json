@@ -4,14 +4,79 @@
     "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj": {
+    "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\Identity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj",
-        "projectName": "Identity.UnitTests",
-        "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\Identity.Application.csproj",
+        "projectName": "Identity.Application",
+        "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\Identity.Application.csproj",
         "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\Identity.Domain.csproj",
+        "projectName": "Identity.Domain",
+        "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,10 +110,83 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj",
+        "projectName": "Identity.UnitTests",
+        "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\Identity.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\raj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raj\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\Identity.Application.csproj": {
+                "projectPath": "C:\\Users\\raj\\enterprise-banking-api\\services\\identity-service\\Identity.Application\\Identity.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",
