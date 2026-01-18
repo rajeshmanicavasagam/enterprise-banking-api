@@ -115,6 +115,13 @@ Unit tests focus on application-level business logic, not framework concerns.
 
 dotnet test services/identity-service/IdentityService.sln
 
+## 🚀 Future Improvements
+
+- Replace in-memory persistence with PostgreSQL
+- Add messaging (Kafka / Azure Service Bus) for transaction processing
+- Centralized authorization using Identity Service
+- Distributed tracing (OpenTelemetry)
+- Docker Compose for local orchestration
 
 
 
